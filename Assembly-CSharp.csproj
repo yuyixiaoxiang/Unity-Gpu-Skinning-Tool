@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d0cb7c5c-d66c-1717-58c8-02c9253b3a17}</ProjectGuid>
+    <ProjectGuid>{56e0fd94-4b24-5020-d192-8c3059bc9267}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -55,18 +55,13 @@
     <Compile Include="Assets\Scripts\TestManager5.cs" />
     <Compile Include="Assets\Scripts\Plugins\GpuSkinning\GpuSkinningInstance.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
-    <None Include="Packages\com.unity.render-pipelines.universal@14.0.11\package.json" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\MPBGpuVerticesAnimation.shader" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\NoiseGpuVerticesAnimation.shader" />
-    <None Include="Packages\com.unity.render-pipelines.core@14.0.11\ValidationConfig.json" />
-    <None Include="Packages\com.unity.render-pipelines.core@14.0.11\package.json" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\GpuVerticesAnimation.shader" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\ModifyModelMatGpuVerticesAnimation.shader" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\GpuSkinningAnimation.shader" />
-    <None Include="Packages\com.unity.render-pipelines.universal@14.0.11\ValidationExceptions.json" />
     <None Include="Assets\Resources\BillingMode.json" />
     <None Include="Assets\Scripts\Plugins\GpuSkinning\Shaders\GpuSkinningAnim_Inst.shader" />
-    <None Include="Packages\com.unity.render-pipelines.universal@14.0.11\ValidationConfig.json" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -317,7 +312,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -695,118 +690,109 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\Users\fendou\projects\My project (1)7777\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>C:\Users\fendou\projects\Unity-Gpu-Skinning-Tool\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{02b9c937-8fa1-b722-b045-a92d4c298fce}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{1a7293b8-e334-bd66-f21c-b259077c3e18}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{c0a7f5be-88d3-c939-0302-63c5980b0257}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{52e90423-4962-e8fc-a185-774e5219be5b}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{bc642dd6-03b4-5d4a-9351-8908da01db83}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{e32891ca-db68-2ce5-5364-aeb15884415b}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{d2534e33-7a23-299f-4a5d-abe3a8944b6d}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{202f8771-0d8d-b8cd-5601-d59091aa8425}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{17243437-a32b-3cab-46c6-9cef264ff5fd}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
